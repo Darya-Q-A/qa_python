@@ -1,4 +1,2 @@
-__pycache__/main.cpython-314.pyc
-__pycache__/tests.cpython-314-pytest-9.0.2.pyc
-main.cpython-38.pyc
-test.cpython-38-pytest-7.1.2.pyc
+*.pyc
+*.json
