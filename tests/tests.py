@@ -81,7 +81,7 @@ class TestBooksCollector:
                 }
     
     # 8. вывод книг, жанр которой отсутствует в списке genre_age_rating
-    def test_get_books_for_children_is_not_genre_age_ratingp(self, collector):
+    def test_get_books_for_children_is_not_genre_age_rating(self, collector):
         collector.add_new_book('Финдус и Петсон')
         collector.set_book_genre('Финдус и Петсон', 'Мультфильмы')
         collector.add_new_book('Пила')
@@ -97,7 +97,7 @@ class TestBooksCollector:
         assert 'Снежная королева' in collector.favorites
 
     # 10. успешное удаление книги из избранного, книги в избранном нет
-    def delete_book_from_favorites_book_deleted(self, collector):
+    def test_delete_book_from_favorites_book_deleted(self, collector):
         collector.add_new_book('Шоколадный дедушка')
         collector.add_new_book('Шоколадус')
         collector.add_book_in_favorites('Шоколадный дедушка')
