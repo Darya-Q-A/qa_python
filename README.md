@@ -42,7 +42,7 @@
 ### 9. `test_add_book_in_favorites_book_added`
 Проверяет, что книга успешно добавляется в список избранных при вызове `add_book_in_favorites`. После добавления книга присутствует в списке.
 
-### 10. `delete_book_from_favorites_book_deleted`
+### 10. `test_delete_book_from_favorites_book_deleted`
 Проверяет, что после вызова `delete_book_from_favorites` книга удаляется из списка избранных. В списке ее уже нет.
 
 ### 11. `test_get_list_of_favorites_books_true`
